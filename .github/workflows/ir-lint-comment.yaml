@@ -2,7 +2,7 @@ name: "[Lint] Comment PR"
 
 on:
   workflow_run:
-    workflows: ["[Lint] Receive PR"]
+    workflows: [lint-receive-pr]
     types:
       - completed
 
